@@ -128,7 +128,7 @@ b{
     display: inline-block;
 }
 
-.nav-element a:hover{
+.nav-element.page a:hover{
     /*If you did borders the normal way, the borders would affect the size of the element under the regular box model. To avoid this use the following code. However this code will only work in IE version 9+*/
     -webkit-box-shadow:
      inset -1px   0 0 rgb(34, 36, 51),
