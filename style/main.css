@@ -1,0 +1,235 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-weight: 300;
+}
+
+html, body{ 
+    min-height: 100vh;
+    overflow: auto;
+
+    font-size: 12pt;
+}
+
+body{
+    background: #A1FFCF;
+    background: -webkit-linear-gradient(bottom left, #A1FFCF, #FAFFD1);
+    background: -moz-linear-gradient(bottom left, #A1FFCF, #FAFFD1);
+    background: linear-gradient(bottom left, #A1FFCF, #FAFFD1);
+
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+}
+
+a{
+    color: rgb(34, 36, 51);
+    text-decoration: none;
+}
+
+h1{
+    color: rgb(34, 36, 51);
+    font-size: 36pt;
+    font-weight: 300;
+}
+
+h2{
+    color: rgb(34, 36, 51);
+}
+
+h3{
+    color: rgb(34, 36, 51);
+    display: inline;
+    /*padding-left: 5px;*/
+    font-weight: 300;
+    font-size: 12pt;
+}
+
+p{
+    opacity: 0.7;
+}
+
+b{
+    font-weight: 500;
+}
+
+.button {
+    border: 1px solid rgb(34, 36, 51);
+
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    
+    background-color: rgb(34, 36, 51);
+
+    color: white;
+    font-size: 16pt;
+    font-weight: 300;
+
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+.button:hover{
+    background-color: transparent;
+    color: rgb(34, 36, 51);
+    border: 1px solid rgb(34, 36, 51);
+}
+
+
+#wrapper{
+
+    height: 90vh;
+    width: 90vw;
+
+    margin: 5vh 5vw;
+    
+    background-color: white;
+
+    -webkit-box-shadow: 5px 5px 20px 10px rgba(0,0,0,0.13);
+    -moz-box-shadow: 5px 5px 20px 10px rgba(0,0,0,0.13);
+    box-shadow: 5px 5px 20px 10px rgba(0,0,0,0.13);
+}
+
+
+
+
+#nav{
+    height: 9vh;
+    width: 90vw;
+
+    float: left;
+
+    border-bottom: 1px solid rgba(34, 36, 51, 0.7);
+
+    
+}
+
+
+.nav-element{
+    height: 9vh;
+    width: 200px;
+
+    line-height: 9vh;
+
+    float: right;
+
+    text-align: center;
+    vertical-align: middle;
+
+    font-weight: 300;
+
+}
+
+.nav-element a, .social-element a{
+    height: 100%;
+    width: 100%;
+
+    display: inline-block;
+}
+
+.nav-element a:hover{
+    /*If you did borders the normal way, the borders would affect the size of the element under the regular box model. To avoid this use the following code. However this code will only work in IE version 9+*/
+    -webkit-box-shadow:
+     inset -1px   0 0 rgb(34, 36, 51),
+     inset  1px   0 0 rgb(34, 36, 51),
+     inset  0   1px 0 rgb(34, 36, 51);
+  -moz-box-shadow:
+    inset -1px   0 0 rgb(34, 36, 51),
+    inset  1px   0 0 rgb(34, 36, 51),
+    inset  0   1px 0 rgb(34, 36, 51);
+  box-shadow:
+    inset -1px   0 0 rgb(34, 36, 51),
+    inset  1px   0 0 rgb(34, 36, 51),
+    inset  0   1px 0 rgb(34, 36, 51);
+}
+
+
+div.nav-element.current{
+    background-color: rgb(34, 36, 51);
+}
+
+div.nav-element.current a{
+    color: white;
+}
+
+#main{
+    height: 76vh;
+    width: 90vw;
+
+    float: left;
+
+    
+}
+
+#main .content{
+    
+
+    float: left;
+
+    
+
+    
+}
+
+#main .content.left{
+    width: calc(40vw - 101px);
+    height: calc(76vh - 100px);
+
+    padding: 50px;
+
+    /*border-right: 1px solid rgba(34, 36, 51, 0.7);*/
+}
+
+#main .content.right{
+    width: calc(50vw - 40px);
+    height: calc(76vh - 40px);
+
+    padding: 20px;
+    
+}
+
+
+#main .content .aboutme{
+    float: left;
+    width: 100%;
+    padding-top: 20px;
+}
+
+#main .content .aboutme h3{
+    margin-left: 5px;
+}
+
+#main .content .aboutme p{
+    width: 80%;
+    /*border-left: 1px solid rgb(34, 36, 51);*/
+    
+    margin-top: 10px;
+    padding-left: 5px;
+}
+
+.fas{
+    color: rgb(34, 36, 51);
+}
+
+#social{
+    height: 5vh;
+    width: 90vw;
+    
+    float: left;
+
+    border-top: 1px solid rgba(34, 36, 51, 0.7);
+}
+
+.social-element{
+    height: 5vh;
+    line-height: 5vh;
+
+    float: right;
+
+    margin-right: 20px;
+
+    text-align: center;
+    vertical-align: middle;
+}
+
