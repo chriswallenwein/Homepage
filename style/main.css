@@ -131,24 +131,6 @@ b{
     width:100px
 }
 
-.mobile_nav{
-    background-color: black;
-    height: 50px;
-    width: 50px;
-    position: absolute;
-    display: none;
-}
-
-.nav-element.icon:hover div{
-    background-color: blue;
-    display: inline;
-}
-
-.nav-element.icon:focus div{
-    background-color: blue;
-    display: inline;
-}
-
 .nav-element a, .social-element a{
     height: 100%;
     width: 100%;
@@ -305,6 +287,7 @@ div.nav-element.current a{
     .nav-element{
         width: 150px;
     }
+
 }
 
 
@@ -327,5 +310,25 @@ div.nav-element.current a{
 @media only screen and (max-width: 768px) and (orientation: landscape){
     #wrapper #nav .name{
         font-size: 3vw;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .mobile_nav{
+        background-color: black;
+        height: 50px;
+        width: 50px;
+        position: absolute;
+        display: none;
+    }
+
+    .nav-element.icon:hover div{
+        background-color: blue;
+        display: inline;
+    }
+    
+    .nav-element.icon:focus div{
+        background-color: blue;
+        display: inline;
     }
 }
