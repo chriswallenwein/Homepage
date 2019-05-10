@@ -113,7 +113,7 @@ b{
 
 .nav-element{
     height: 9vh;
-    width: 200px;
+    width: 150px;
 
     line-height: 9vh;
 
@@ -268,8 +268,7 @@ div.nav-element.current a{
 
      #wrapper #nav .name{
         font-size: 20pt;
-        width: calc(90vw - 500px); /* change the width from -500px to 100px + (number of elements in the navbar * 200px) */
-        
+        width: calc(90vw - 400px); /* change the width from -500px to 100px + (number of elements in the navbar * 200px) */
     }
 
     #nav{
@@ -279,11 +278,22 @@ div.nav-element.current a{
     #nav .pages{
         display: block;
     }
+
+    .nav-element{
+        width: 150px;
+    }
 }
 
 
 @media only screen and (min-width: 960px){
+    .nav-element{
+        width: 200px;
+    }
 
+    #wrapper #nav .name{
+        font-size: 20pt;
+        width: calc(90vw - 500px); /* change the width from -500px to 100px + (number of elements in the navbar * 200px) */
+    }
 }
 
 
