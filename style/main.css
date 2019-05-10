@@ -146,6 +146,11 @@ b{
     display: none;
 }
 
+.dropdown .icon.mobile{
+    pointer-events: none;
+    cursor: default;
+}
+
 .nav-element.page a:hover{
     /*If you did borders the normal way, the borders would affect the size of the element under the regular box model. To avoid this use the following code. However this code will only work in IE version 9+*/
     -webkit-box-shadow:
