@@ -288,6 +288,10 @@ div.nav-element.current a{
         width: 150px;
     }
 
+    .mobile_nav{
+        display: none;
+    }
+
 }
 
 
