@@ -126,7 +126,7 @@ b{
 
 }
 
-.nav-element.icon {
+.nav-element.dropdown {
     float:left;
     width:100px
 }
@@ -338,8 +338,8 @@ div.nav-element.current a{
         border-bottom: 1px solid black;
     }
 
-    .nav-element.icon:hover div, .nav-element.icon:focus div{
-    /*.nav-element.icon .mobile_nav{*/
+    .nav-element.dropdown:hover div, .nav-element.dropdown:focus div{
+    /*.nav-element.dropdown .mobile_nav{*/
         
         display: inline;
     }
