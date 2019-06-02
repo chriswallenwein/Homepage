@@ -363,10 +363,12 @@ div.nav-element.current a{
         cursor: pointer;
     }
 
-    .nav-element.dropdown:hover div, .nav-element.dropdown:focus div{
+    .nav-element.dropdown:hover div, .nav-element.dropdown:focus div, .nav-element.dropdown:active div{
     /*.nav-element.dropdown .mobile_nav{*/
         
         display: inline;
+        -webkit-user-select: none;
+        -webkit-touch-callout: none
     }
     
 }
