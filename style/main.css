@@ -359,10 +359,6 @@ div.nav-element.current a{
         border-bottom: 1px solid black;
     }
 
-    .nav-element.dropdown{
-        cursor: pointer;
-    }
-
     .nav-element.dropdown:hover div, .nav-element.dropdown:focus div, .nav-element.dropdown:active div{
     /*.nav-element.dropdown .mobile_nav{*/
         
