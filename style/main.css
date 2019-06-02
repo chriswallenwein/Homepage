@@ -304,6 +304,11 @@ div.nav-element.current a{
         -webkit-user-select: none;
         -webkit-touch-callout: none
     }
+
+    .mobile_nav a:active{
+        background-color: rgb(34, 36, 51);
+        color: white;
+    }
     
 }
 
