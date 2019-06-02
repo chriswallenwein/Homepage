@@ -271,7 +271,43 @@ div.nav-element.current a{
     vertical-align: middle;
 }
 
+/* Screens smaller than 768px - very unusual */
+@media only screen and (max-width: 768px){
+    .mobile_nav{
 
+        width: 100vw;
+        height: 50px;
+        
+
+        position: absolute;
+        top: 9vh;
+        display: none;
+    }
+
+    .mobile_nav a{
+        position: block;
+        float: left;
+
+        height: 100px;
+
+        vertical-align: middle;
+
+        line-height: 100px;
+
+        border-bottom: 1px solid black;
+    }
+
+    .nav-element.dropdown:hover div, .nav-element.dropdown:focus div, .nav-element.dropdown:active div{
+    /*.nav-element.dropdown .mobile_nav{*/
+        
+        display: inline;
+        -webkit-user-select: none;
+        -webkit-touch-callout: none
+    }
+    
+}
+
+/* Usual phone screens*/
 @media only screen and (min-width: 768px){
     #wrapper{
         height: 90vh;
@@ -311,7 +347,7 @@ div.nav-element.current a{
 
 }
 
-
+/* Bigger phones and small tablets */
 @media only screen and (min-width: 960px){
     .nav-element{
         width: 200px;
@@ -323,48 +359,14 @@ div.nav-element.current a{
     }
 }
 
-
+/* Bigger tablets and small laptops */
 @media only screen and (min-width: 1200px){
 
 }
 
+/* Smartphones in landscape mode */
 @media only screen and (max-width: 768px) and (orientation: landscape){
     #wrapper #nav .name{
         font-size: 3vw;
     }
-}
-
-@media only screen and (max-width: 768px){
-    .mobile_nav{
-
-        width: 100vw;
-        height: 50px;
-        
-
-        position: absolute;
-        top: 9vh;
-        display: none;
-    }
-
-    .mobile_nav a{
-        position: block;
-        float: left;
-
-        height: 100px;
-
-        vertical-align: middle;
-
-        line-height: 100px;
-
-        border-bottom: 1px solid black;
-    }
-
-    .nav-element.dropdown:hover div, .nav-element.dropdown:focus div, .nav-element.dropdown:active div{
-    /*.nav-element.dropdown .mobile_nav{*/
-        
-        display: inline;
-        -webkit-user-select: none;
-        -webkit-touch-callout: none
-    }
-    
 }
