@@ -272,6 +272,13 @@ div.nav-element.current a{
     vertical-align: middle;
 }
 
+.social-element p{
+    display: none;
+}
+.social-element i{
+    display: inline-block;
+}
+
 /* Screens smaller than 768px - very unusual */
 @media only screen and (max-width: 768px){
     .mobile_nav{
@@ -322,7 +329,7 @@ div.nav-element.current a{
         margin: 5vh 5vw;
     }
 
-     #wrapper #nav .name{
+    #wrapper #nav .name{
         font-size: 20pt;
         width: calc(90vw - 400px); /* change the width from -500px to 100px + (number of elements in the navbar * 200px) */
     }
@@ -367,7 +374,9 @@ div.nav-element.current a{
 
 /* Bigger tablets and small laptops */
 @media only screen and (min-width: 1200px){
-
+    .social-element p{
+        display: inline;
+    }
 }
 
 /* Smartphones in landscape mode */
