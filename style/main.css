@@ -98,7 +98,7 @@ b{
     font-weight: 100;
 }
 
-
+/*Navigation*/
 #nav{
     height: 9vh;
     width: 100vw;
@@ -106,8 +106,6 @@ b{
     float: left;
 
     border-bottom: 1px solid rgba(34, 36, 51, 0.7);
-
-    
 }
 
 
@@ -176,23 +174,16 @@ div.nav-element.current a{
     color: white;
 }
 
+/*Main*/
+
 #main{
     height: 76vh;
     width: 90vw;
-
     float: left;
-
-    
 }
 
 #main .content{
-    
-
     float: left;
-
-    
-
-    
 }
 
 #main .content.left{
@@ -245,6 +236,9 @@ div.nav-element.current a{
     margin-top: 10px;
     padding-left: 5px;
 }
+
+
+/*Social Media Footer*/
 
 .fas{
     color: rgb(34, 36, 51);
