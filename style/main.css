@@ -253,17 +253,18 @@ div.nav-element.current a{
 #social{
     height: 5vh;
     width: 90vw;
-    
-    float: left;
 
     border-top: 1px solid rgba(34, 36, 51, 0.7);
+
+    text-align: center;
+    display: inline-block;
 }
 
 .social-element{
     height: 5vh;
     line-height: 5vh;
 
-    float: right;
+    display: inline-block;
 
     margin-right: 20px;
 
@@ -312,7 +313,7 @@ div.nav-element.current a{
     
 }
 
-/* Usual phone screens*/
+/* Usual phone screens bigger than 768px */
 @media only screen and (min-width: 768px){
     #wrapper{
         height: 90vh;
