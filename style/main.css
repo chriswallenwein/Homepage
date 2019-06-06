@@ -322,6 +322,10 @@ div.nav-element.current a{
         margin: 5vh 5vw;
     }
 
+    #main{
+        height: calc(76vh - 2px); /* 76vh = 86vh - (2*5vh) 2px are the border below the navigation and the border above the social media footer*/
+    }
+
     .nav-element{
         width: 150px;
     }
