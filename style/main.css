@@ -298,20 +298,25 @@ div.nav-element.current a{
         border-bottom: 1px solid black;
     }
 
-    .nav-element.dropdown:hover div, .nav-element.dropdown:focus div, .nav-element.dropdown:active div{
-    /*.nav-element.dropdown .mobile_nav{*/
-        
-        display: inline;
-        -webkit-user-select: none;
-        -webkit-touch-callout: none
-    }
-
     .mobile_nav a:active{
         background-color: rgb(34, 36, 51);
         color: white;
     }
     
 }
+
+/* Screens smaller than 960px*/
+@media only screen and (max-width: 960px){
+    /*.nav-element.dropdown:hover div, .nav-element.dropdown:focus div, .nav-element.dropdown:active div{*/
+    #nav:hover .dropdown div, #nav:focus .dropdown div, #nav:active .dropdown div{ 
+            display: inline;
+            -webkit-user-select: none;
+            -webkit-touch-callout: none
+        }
+}
+
+
+
 
 /* Usual phone screens bigger than 768px */
 @media only screen and (min-width: 768px){
@@ -356,7 +361,6 @@ div.nav-element.current a{
     .dropdown .icon.desktop{
         display: block;
     }
-
 }
 
 /* Bigger phones and small tablets */
