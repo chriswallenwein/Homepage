@@ -186,56 +186,38 @@ div.nav-element.current a{
     float: left;
 }
 
-#main .content{
+#me{
+    width: 100vw;
+}
+
+#me img{
+    width: 25vw;
     float: left;
 }
 
-#main .content.left{
-    width: 50vw;
-    height: calc(76vh - 100px);
-
-    /*border-right: 1px solid rgba(34, 36, 51, 0.7);*/
-}
-
-#main .content.right{
-    width: 50vw;
-    height: calc(76vh - 40px);
-}
-
-
-#main .content .aboutme{
+#me div{
+    width: 75vw;
     float: left;
-    width: 100%;
-    padding-top: 20px;
-    /*border: 1px solid black;*/
+    display: inline;
 }
 
-#main .content .aboutme .text{
-    float: left;
-    
-    /*border: 1px solid black;*/
-    
-    width: calc(50vw - 60px);
+#me h1{
+    color: rgb(34, 36, 51);
+    font-size: 6vw;
+    font-weight: 300;
 }
 
-#main .content .aboutme .icon{
-    float: left;
-    width: 20px;
-    height: 100px;
+#me h3{
+    color: rgb(34, 36, 51);
+    font-size: 4vw;
+    font-weight: 300;
 }
 
-#main .content .aboutme h3{
-    margin-left: 5px;
+#me h5{
+    color: rgb(34, 36, 51);
+    font-size: 4vw;
+    font-weight: 200;
 }
-
-#main .content .aboutme p{
-    width: 80%;
-    /*border-left: 1px solid rgb(34, 36, 51);*/
-    
-    margin-top: 10px;
-    padding-left: 5px;
-}
-
 
 /*Social Media Footer*/
 
