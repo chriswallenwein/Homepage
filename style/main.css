@@ -6,6 +6,8 @@
 
 html, body{ 
     min-height: 100vh;
+    width: 100vw;
+
     overflow: auto;
 
     font-size: 12pt;
@@ -93,6 +95,8 @@ b{
     
     float:left;
 
+    color: rgb(34, 36, 51);
+
     font-size: 6vw;
     text-align: left;
     font-weight: 100;
@@ -177,8 +181,8 @@ div.nav-element.current a{
 /*Main*/
 
 #main{
-    height: 76vh;
-    width: 90vw;
+    height: calc(86vh - 2px); /* 2px are the border below the navigation and the border above the social media footer*/
+    width: 100vw;
     float: left;
 }
 
@@ -187,20 +191,15 @@ div.nav-element.current a{
 }
 
 #main .content.left{
-    width: calc(40vw - 101px);
+    width: 50vw;
     height: calc(76vh - 100px);
-
-    padding: 50px;
 
     /*border-right: 1px solid rgba(34, 36, 51, 0.7);*/
 }
 
 #main .content.right{
-    width: calc(50vw - 40px);
+    width: 50vw;
     height: calc(76vh - 40px);
-
-    padding: 20px;
-    
 }
 
 
@@ -246,7 +245,7 @@ div.nav-element.current a{
 
 #social{
     height: 5vh;
-    width: 90vw;
+    width: 100vw;
 
     border-top: 1px solid rgba(34, 36, 51, 0.7);
 
@@ -323,21 +322,23 @@ div.nav-element.current a{
         margin: 5vh 5vw;
     }
 
-    #wrapper #nav .name{
-        font-size: 20pt;
-        width: calc(90vw - 400px); /* change the width from -500px to 100px + (number of elements in the navbar * 200px) */
+    .nav-element{
+        width: 150px;
     }
 
-    #nav{
+
+    #wrapper #nav .name{
+        font-size: 20pt;
+        width: calc(90vw - 400px); /* change the width from -500px to 100px + (number of elements in the navbar * 150px) */
+    }
+
+    #nav, #social, #main{
         width: 90vw;
     }
 
+
     #nav .pages{
         display: block;
-    }
-
-    .nav-element{
-        width: 150px;
     }
 
     .mobile_nav{
