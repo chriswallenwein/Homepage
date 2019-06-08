@@ -182,8 +182,10 @@ div.nav-element.current a{
 
 #main{
     height: calc(86vh - 2px); /* 2px are the border below the navigation and the border above the social media footer*/
-    width: 100vw;
+    width: 80vw;
+    margin: 0 10vw;
     float: left;
+    /*border: 1px solid black;*/
 }
 
 #me{
@@ -310,7 +312,9 @@ div.nav-element.current a{
     }
 
     #main{
-        height: calc(76vh - 2px); /* 76vh = 86vh - (2*5vh) 2px are the border below the navigation and the border above the social media footer*/
+        height: 76vh;/*calc(76vh - 2px); /* 76vh = 86vh - (2*5vh) 2px are the border below the navigation and the border above the social media footer*/
+        width: 80vw;
+        margin: 0 5vw;
     }
 
     .nav-element{
@@ -323,7 +327,7 @@ div.nav-element.current a{
         width: calc(90vw - 400px); /* change the width from -500px to 100px + (number of elements in the navbar * 150px) */
     }
 
-    #nav, #social, #main{
+    #nav, #social{
         width: 90vw;
     }
 
