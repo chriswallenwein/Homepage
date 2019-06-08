@@ -181,44 +181,50 @@ div.nav-element.current a{
 /*Main*/
 
 #main{
-    height: calc(86vh - 2px); /* 2px are the border below the navigation and the border above the social media footer*/
+    height: calc(86vh - 20vw - 2px); /* 2px are the border below the navigation and the border above the social media footer*/
     width: 80vw;
-    margin: 0 10vw;
+    margin: 10vw 10vw;
     float: left;
     /*border: 1px solid black;*/
 }
 
 #me{
-    width: 100vw;
+    width: 80vw;
+    height: 20vw;
 }
 
 #me img{
-    width: 25vw;
+    width: 20vw;
     float: left;
+    border-radius: 8px;
 }
 
 #me div{
-    width: 75vw;
+    width: 55vw;
+    height: 20vw;
     float: left;
-    display: inline;
+    padding-left: 5vw;
 }
 
 #me h1{
     color: rgb(34, 36, 51);
-    font-size: 6vw;
+    font-size: 5.5vw;
     font-weight: 300;
+    line-height: 9vw;
 }
 
 #me h3{
     color: rgb(34, 36, 51);
     font-size: 4vw;
     font-weight: 300;
+    line-height: 6vw;
 }
 
 #me h5{
     color: rgb(34, 36, 51);
-    font-size: 4vw;
+    font-size: 3.5vw;
     font-weight: 200;
+    line-height: 5vw;
 }
 
 /*Social Media Footer*/
