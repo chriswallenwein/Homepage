@@ -55,20 +55,62 @@
                     <h3>Data Scientist & Entrepreneur</h3>
                     <h5>Cologne, Germany</h5>
                 </div>
-           </div>
-           <div id="textaboutme">
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
-           </div>
-           <div id="experience">
-               <h1>Experience</h1>
-               <div class="inner">
-                    <div class="box">Open Collapsible</div>
-                    <div class="content">
-                      <p>Lorem ipsum...</p>
-                    </div> 
+            </div>
+            <div id="textaboutme">
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                industry's standard dummy text ever since the 1500s.
+            </div>
+            <div id="experience">
+                <h1>Experience</h1>
+                <div class="inner">
+                    <div class="box">
+                        <div class="collapsible">
 
-               </div>
-           </div>
+                            <h1> Founder</h1>
+                            <h2> NBW Handels UG </h2>
+                            <h3> Sep 2018 - Present </h3>
+
+                        </div>
+                        <div class="content">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam venenatis finibus neque
+                                non ornare. Aliquam auctor sem a ex ultricies congue. In auctor dapibus urna, ut
+                                elementum ligula facilisis dictum. Fusce eleifend ac dui commodo rutrum. Curabitur
+                                tristique quam quis molestie dictum. Nulla vitae blandit quam, quis sagittis ex. </p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="collapsible">
+
+                            <h1> Founder</h1>
+                            <h2> NBW Handels UG </h2>
+                            <h3> Sep 2018 - Present </h3>
+
+                        </div>
+                        <div class="content">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam venenatis finibus neque
+                                non ornare. Aliquam auctor sem a ex ultricies congue. In auctor dapibus urna, ut
+                                elementum ligula facilisis dictum. Fusce eleifend ac dui commodo rutrum. Curabitur
+                                tristique quam quis molestie dictum. Nulla vitae blandit quam, quis sagittis ex. </p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="collapsible">
+
+                            <h1> Founder</h1>
+                            <h2> NBW Handels UG </h2>
+                            <h3> Sep 2018 - Present </h3>
+
+                        </div>
+                        <div class="content">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam venenatis finibus neque
+                                non ornare. Aliquam auctor sem a ex ultricies congue. In auctor dapibus urna, ut
+                                elementum ligula facilisis dictum. Fusce eleifend ac dui commodo rutrum. Curabitur
+                                tristique quam quis molestie dictum. Nulla vitae blandit quam, quis sagittis ex. </p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
         </div>
 
 
@@ -81,7 +123,8 @@
             </div>
 
             <div class="social-element">
-                <a href="https://www.linkedin.com/in/christianwallenwein/" target="_blank"><i class="fab fa-linkedin-in"></i>
+                <a href="https://www.linkedin.com/in/christianwallenwein/" target="_blank"><i
+                        class="fab fa-linkedin-in"></i>
                     <p>/christianwallenwein/</p>
                 </a>
             </div>
@@ -99,11 +142,12 @@
             </div>
 
             <div class="social-element">
-                <a href="https://stackoverflow.com/users/6831896/chriswallenwein" target="_blank"><i class="fab fa-stack-overflow"></i>
+                <a href="https://stackoverflow.com/users/6831896/chriswallenwein" target="_blank"><i
+                        class="fab fa-stack-overflow"></i>
                     <p>/users/6831896/chriswallenwein</p>
                 </a>
             </div>
-            
+
         </div>
 
     </div>
@@ -115,22 +159,22 @@
                 </button>
 -->
 
-<script>
-var coll = document.getElementsByClassName("box");
-var i;
+    <script>
+        var coll = document.getElementsByClassName("collapsible");
+        var i;
 
-for (i = 0; i < coll.length; i++) {
-  coll[i].addEventListener("click", function() {
-    this.classList.toggle("active");
-    var content = this.nextElementSibling;
-    if (content.style.display === "block") {
-      content.style.display = "none";
-    } else {
-      content.style.display = "block";
-    }
-  });
-} 
-</script>
+        for (i = 0; i < coll.length; i++) {
+            coll[i].addEventListener("click", function () {
+                this.classList.toggle("active");
+                var content = this.nextElementSibling;
+                if (content.style.display === "block") {
+                    content.style.display = "none";
+                } else {
+                    content.style.display = "block";
+                }
+            });
+        } 
+    </script>
 
 </body>
 
