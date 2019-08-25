@@ -80,10 +80,15 @@ b{
 
 
 #wrapper{
-    height: 100vh;
+    min-height: 100vh;
     width: 100vw;
     
+    display: inline-block;
+    position: relative;
+    vertical-align: top;
+
     background-color: white;
+
 
     -webkit-box-shadow: 5px 5px 20px 10px rgba(0,0,0,0.13);
     -moz-box-shadow: 5px 5px 20px 10px rgba(0,0,0,0.13);
@@ -136,7 +141,6 @@ b{
  .collapsible {
     cursor: pointer;
     padding: 0 18px;
-    width: 100%;
     border: none;
     text-align: left;
     outline: none;
@@ -251,7 +255,7 @@ div.nav-element.current a{
 /*Main*/
 
 #main{
-    height: calc(86vh - 20vw - 2px); /* 2px are the border below the navigation and the border above the social media footer*/
+    /*height: calc(86vh - 20vw - 2px); /* 2px are the border below the navigation and the border above the social media footer*/
     width: 80vw;
     margin: 10vw 10vw;
     float: left;
@@ -310,7 +314,11 @@ div.nav-element.current a{
     border-top: 1px solid rgba(34, 36, 51, 0.7);
 
     text-align: center;
-    display: inline-block;
+    /*display: inline-block;*/
+
+    position: absolute;
+    bottom: 0;
+
 }
 
 .social-element{
@@ -443,6 +451,15 @@ div.nav-element.current a{
 @media only screen and (min-width: 1200px){
     .social-element p{
         display: inline;
+    }
+
+
+    #main{
+        height: calc(86vh - 20vw - 2px); /* 2px are the border below the navigation and the border above the social media footer*/
+        width: 80vw;
+        margin: 10vw 10vw;
+        float: left;
+        /*border: 1px solid black;*/
     }
 }
 
