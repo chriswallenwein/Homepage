@@ -62,7 +62,10 @@
            <div id="experience">
                <h1>Experience</h1>
                <div class="inner">
-                    
+                    <div class="box">Open Collapsible</div>
+                    <div class="content">
+                      <p>Lorem ipsum...</p>
+                    </div> 
 
                </div>
            </div>
@@ -111,6 +114,23 @@
                     
                 </button>
 -->
+
+<script>
+var coll = document.getElementsByClassName("box");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+} 
+</script>
 
 </body>
 
