@@ -113,6 +113,24 @@ b{
 }
 
 
+#textaboutme{
+    padding-top: 25px;
+    line-height: 125%;
+}
+
+#experience{
+    padding-top : 30px;
+}
+
+#experience h1{
+    font-size: 15pt;
+}
+
+#experience .inner{
+    height: 100px;
+    border-left: 1px solid rgba(0, 0, 0, 0.6);
+}
+
 .nav-element{
     height: 9vh;
     width: 150px;
