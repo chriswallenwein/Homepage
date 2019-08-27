@@ -123,15 +123,15 @@ b{
     line-height: 125%;
 }
 
-#experience, #education{
+.timeline{
     padding-top : 30px;
 }
 
-#experience h1, #education h1{
+.timeline h1{
     font-size: 15pt;
 }
 
-#experience .inner, #education .inner{
+.timeline .inner{
     margin: 15px 0 0 18px;
     border-left: 1px solid rgba(0, 0, 0, 0.6);
 }
@@ -256,6 +256,7 @@ div.nav-element.current{
 div.nav-element.current a{
     color: white;
 }
+
 
 /*Main*/
 
